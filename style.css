@@ -1,9 +1,9 @@
 *{
-    font-size: 16px;
+    font-size: auto;
 }
 body {
     width: 1024px;
-    margin: 20px auto;
+    margin: 30px auto;
     height: 1024px;
 }
 .title {
@@ -18,33 +18,46 @@ body {
 }
 .second{
     float: right;
-    padding-right: 500px;
+    padding-right: 50px;
     padding-top:25px;
+    width: 400px;
+    height: 400px;
 }
 .pic {
     padding-top: 30px;
+    width: 400px;
+    height: 400px;
+    
 }
 .Hi {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
-  
+    font-size: 20px;
+    padding-left: 30px;
 }
 .JASON {
     font-family: Arial, Helvetica, sans-serif;
-    width: 200px;
-    height: 100px;
+    width: 400px;
+    height: 200px;
+    font-size: 40px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+}
+.box{
+    padding-right: 40px;
 }
 .box1{
    float: left;
-   padding-right: 50px;
+   padding-right: 40px;
    color: indianred;
-   font-size: 20px;
-   margin: 10px auto;
+   font-size: 30px;
+   margin: auto;
+   margin-left: 35px;
 }
 .box2{
     float: left;
-    padding-right: 30px;
+    padding: right 20px
     font-size: 10px;
+    padding-left: 35px;
 
  }
 
@@ -56,6 +69,7 @@ h2 {
 .abm{
     padding-bottom: 2px;
     border-bottom: solid 2px red;
+    padding-top: 10px;
 }
 button {
     border: 1.5px solid red;
@@ -117,17 +131,17 @@ button {
     width: 370px;
     float:right ;
     margin-top: 5px;
+    padding-left: 150px;
 
 }
+
 .c{
     float: left;
     padding-right: 5px;
     padding: left 5px;
     margin: 3px 3px;
-   
    }
    .c1,.c2,.c3{
-   
        border : 0.5px solid ;
        border-radius: 10px;
    }
@@ -165,6 +179,6 @@ button {
     width: 370px;
     float:right ;
     margin-top: 5px;
-    margin-left: 200px;
+    margin-left: 320px;
 
 }
